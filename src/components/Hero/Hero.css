@@ -1,0 +1,55 @@
+.h-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.left-side {
+    padding: 6rem;
+}
+
+.right-side {
+    width: auto;
+}
+
+.typewritter-text {
+    padding: 7rem;
+}
+
+.big-icons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.big-icons>a:hover {
+    color: aquamarine;
+    transition: all 800ms ease;
+}
+
+.big-icons>a {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (max-width: 640px) {
+    .left-side {
+        padding: 1rem;
+        width: auto;
+    }
+
+    .aquaText {
+        font-size: 2rem;
+
+    }
+
+    .left-side {
+        text-align: center;
+    }
+  
+}

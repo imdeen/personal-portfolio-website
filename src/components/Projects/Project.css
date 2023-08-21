@@ -1,0 +1,70 @@
+.tech-balls {
+    padding: 1rem;
+}
+
+
+.projectCard {
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #272829;
+    height: auto;
+    width: 450px;
+    position: relative;
+
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card {
+    width: 100%;
+}
+
+.card>img {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    object-fit: contain;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin: 1.5rem;
+
+}
+
+.h-card {
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.p-card {
+    color: rgb(138, 138, 138);
+    font-size: 1.3rem;
+}
+
+@media (max-width: 640px) {
+    .projectCard{
+        width: 300px;
+    }
+    
+}

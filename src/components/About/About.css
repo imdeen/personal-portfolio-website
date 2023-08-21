@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem;
+
+}
+
+.main-images {
+    width: 500px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+
+    text-align: left;
+    overflow: hidden;
+
+}
+
+p {
+    max-width: 27ch;
+}
+
+
+.paintings>img {
+    width: 300px;
+    object-fit: contain
+}
+
+.paintings>img:hover {
+    transform: scale(1.2);
+    transition: all 400ms linear;
+}
+
+.paintings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+
+}
+
+@media (max-width: 640px) {
+    .main-images {
+        width: 300px;
+    }
+
+    .main {
+        justify-content: center;
+    }
+
+}
