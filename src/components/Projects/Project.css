@@ -66,5 +66,9 @@
     .projectCard{
         width: 300px;
     }
+
+    .p-wrapper{
+        padding: 2rem;
+    }
     
 }

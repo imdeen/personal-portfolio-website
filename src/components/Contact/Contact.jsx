@@ -54,6 +54,7 @@ const Contact = () => {
   return (
 
     <section className='top-paddings'>
+      <div className='c-wrapper'></div>
       <div className='contact-form'>
         {/* left */}
         <motion.div
@@ -78,8 +79,8 @@ const Contact = () => {
             type: "spring",
           }}
 
-          className='left'>
-          <h3 className='secondaryText'>Get in touch</h3>
+          className='right'>
+          <h3 className='secondaryText2'>Get in touch</h3>
           <h1 className='aquaText'>Contact</h1>
 
           <form ref={formRef} onSubmit={handleSubmit}>

@@ -1,5 +1,5 @@
 import javascript from '../assets/javascript.svg'
-import html from '../assets/html-logo.svg'
+import html from '../assets/html5.svg'
 import css from '../assets/css.svg'
 import react from '../assets/reactjs.svg'
 import clang from '../assets/clang.svg'

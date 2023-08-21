@@ -3,6 +3,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
+   
 
 }
 
@@ -35,6 +36,21 @@ textarea {
 
 }
 
+
 .button {
     margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+    .contact-form{
+        gap: 3rem;
+    }
+
+    
+   
+
+    .c-wrapper{
+        padding: 2rem;
+    }
+    
 }

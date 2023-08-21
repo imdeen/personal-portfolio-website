@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     padding: 1.5rem;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .left-side {
-    padding: 6rem;
+    margin: 6rem;
 }
 
 .right-side {
@@ -38,18 +38,15 @@
 }
 
 @media (max-width: 640px) {
+   
     .left-side {
-        padding: 1rem;
+        margin: 1rem;
         width: auto;
+        text-align: center;
     }
 
     .aquaText {
         font-size: 2rem;
 
     }
-
-    .left-side {
-        text-align: center;
-    }
-  
 }

@@ -51,7 +51,7 @@ const ProjectCard = ({ name, description, image, source_code_link }) => {
 const Project = () => {
   return (
     <section className='top-paddings'>
-      <div>
+      <div className='p-wrapper'>
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

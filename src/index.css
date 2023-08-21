@@ -117,6 +117,10 @@ a {
   color: rgb(201, 200, 200);
   font-size: 1.6rem;
 }
+.secondaryText2 {
+  color: rgb(201, 200, 200);
+  font-size: 1.6rem;
+}
 
 .aquaText {
   color: aqua;
@@ -214,6 +218,7 @@ a {
 @media (max-width: 640px) {
   .aquaText {
     font-size: 2rem;
+    text-align: center;
   }
 
   .aquaText2 {
@@ -230,6 +235,13 @@ a {
 
   .secondaryText {
     font-size: 1.2rem;
+    
+  }
+
+  .secondaryText2 {
+    font-size: 1.2rem;
+    text-align: center;
+    
   }
 
   .top-paddings {

@@ -3,10 +3,18 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .ball {
     width: 8rem;
     height: 8rem;
+}
+
+@media (max-width: 640px) {
+    .ball{
+        width: 6rem;
+        height: 6rem;
+    }
+    
 }
