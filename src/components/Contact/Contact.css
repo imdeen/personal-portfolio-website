@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 3rem;
    
 
 }
@@ -42,15 +43,11 @@ textarea {
 }
 
 @media (max-width: 640px) {
-    .contact-form{
-        gap: 3rem;
-    }
-
-    
-   
-
-    .c-wrapper{
-        padding: 2rem;
-    }
-    
+ 
+.contact-form{
+    padding: 10px;
+}
+.right{
+    padding: 50px;
+}  
 }

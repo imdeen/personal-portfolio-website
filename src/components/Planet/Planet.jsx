@@ -3,6 +3,7 @@ import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import Planet from './SceneDraco'
 import CanvasLoader from '../Loader/Loader'
+import './Planet.css'
 
 
 const PlanetModel = () => {
@@ -13,7 +14,7 @@ const PlanetModel = () => {
 
 
 
-    <div style={{ width: "50vw", height: "50vh" }}>
+    <div className='planet' >
       <Canvas shadows
         frameloop='demand'
         dpr={[1, 2]}

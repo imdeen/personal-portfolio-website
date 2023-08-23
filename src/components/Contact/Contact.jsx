@@ -35,7 +35,7 @@ const Contact = () => {
     )
       .then(() => {
         setLoading(false);
-        alert('Thank you, i will get back to you as soon as possible.');
+        alert('your message reached me, i will get back to u, ASAP.');
 
         setForm({
           name: '',
@@ -54,47 +54,51 @@ const Contact = () => {
   return (
 
     <section className='top-paddings'>
-      <div className='c-wrapper'></div>
-      <div className='contact-form'>
-        {/* left */}
-        <motion.div
-          initial={{ x: "-4rem", opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{
-            duration: 5,
-            type: "spring",
-          }}
+      <div className='c-wrapper'>
+        <div className='contact-form'>
+          {/* left */}
+          <motion.div
+            initial={{ x: "-4rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              duration: 5,
+              type: "spring",
+            }}
 
-        >
-          <PlanetModel />
+          >
+            <PlanetModel />
 
-        </motion.div>
+          </motion.div>
 
-        {/* right */}
-        <motion.div
-          initial={{ x: "4rem", opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{
-            duration: 5,
-            type: "spring",
-          }}
+          {/* right */}
+          <motion.div
+            initial={{ x: "4rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              duration: 5,
+              type: "spring",
+            }}
 
-          className='right'>
-          <h3 className='secondaryText2'>Get in touch</h3>
-          <h1 className='aquaText'>Contact</h1>
+            className='right'>
+            <h3 className='secondaryText2'>Get in touch</h3>
+            <h1 className='aquaText'>Contact</h1>
 
-          <form ref={formRef} onSubmit={handleSubmit}>
-            <label>Name</label>
-            <input type="text" name="name" value={form.name} onChange={handleChange} placeholder='your name' />
-            <label>Email</label>
-            <input type="email" name="email" value={form.email} onChange={handleChange} placeholder='your email' />
-            <label>Message</label>
-            <textarea rows={9} name="message" value={form.message} onChange={handleChange} placeholder='your message' />
-            <input className='button' type="submit" value={loading ? 'sending...' : 'send'} />
-          </form>
+          
+
+            <form ref={formRef} onSubmit={handleSubmit}>
+              <label>Name</label>
+              <input type="text" name="name" value={form.name} onChange={handleChange} placeholder='your name' />
+              <label>Email</label>
+              <input type="email" name="email" value={form.email} onChange={handleChange} placeholder='your email' />
+              <label>Message</label>
+              <textarea rows={9} name="message" value={form.message} onChange={handleChange} placeholder='your message' />
+              <input className='button' type="submit" value={loading ? 'sending...' : 'send'} />
+            </form>
+          
 
 
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </section>
   )
