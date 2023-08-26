@@ -7,6 +7,7 @@ import { AiOutlineHome, AiOutlineUser, AiOutlinePhone } from "react-icons/ai";
 import { FaLaptopCode } from 'react-icons/fa'
 
 
+
 const Hero = () => {
   return (
     <section>
@@ -57,10 +58,10 @@ const Hero = () => {
         }}
 
         className='big-icons'>
-        <a className='big-icon' href="/"><AiOutlineHome size={50} />Home</a>
-        <a href="/Project"><FaLaptopCode size={50} />Project</a>
-        <a href="/About"><AiOutlineUser size={50} />About</a>
-        <a href="/Contact"><AiOutlinePhone size={50} /><span>Contact</span></a>
+        <a className='big-icon' href="/"><AiOutlineHome size={40} />Home</a>
+        <a href="/Project"><FaLaptopCode size={40} />Project</a>
+        <a href="/About"><AiOutlineUser size={40} />About</a>
+        <a href="/Contact"><AiOutlinePhone size={40} /><span>Contact</span></a>
 
 
       </motion.div>

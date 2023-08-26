@@ -34,6 +34,7 @@
 
 .big-icons>a {
     display: flex;
+    align-items: center;
     flex-direction: column-reverse;
 }
 
@@ -48,5 +49,11 @@
     .aquaText {
         font-size: 2rem;
 
+    }
+    .big-icons {
+        justify-content: space-evenly;
+        gap: 2rem;
+        flex-wrap: wrap;
+       
     }
 }

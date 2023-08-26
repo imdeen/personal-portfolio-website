@@ -26,7 +26,7 @@ const Nav = () => {
                         <a className='Nav-link' href="/Project"><FaLaptopCode />Project</a>
                         <a className='Nav-link' href="/About"> <AiOutlineUser />About</a>
                         <a className='Nav-link' href="/Contact"> <AiOutlinePhone />Contact</a>
-                        <a href="./Deen-resume.pdf" class="button">Resume</a>
+                        <a href="./Deen-Mohammad.pdf" class="button">Resume</a>
                     </div>
 
                     {/* toggle-bar */}

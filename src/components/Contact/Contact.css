@@ -2,13 +2,14 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 3rem;
    
 
 }
 
 form {
+   
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -43,11 +44,25 @@ textarea {
 }
 
 @media (max-width: 640px) {
- 
-.contact-form{
-    padding: 10px;
+
+form{
+    padding: 12px;
 }
-.right{
-    padding: 50px;
-}  
+ 
+
+ 
+input {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+textarea {
+    outline: none;
+    font-size: 1rem;
+    padding: 7px;
+    border-radius: 10px;
+
+}
 }

@@ -1,16 +1,17 @@
-import javascript from '../assets/javascript.svg'
-import html from '../assets/html5.svg'
-import css from '../assets/css.svg'
-import react from '../assets/reactjs.svg'
-import clang from '../assets/clang.svg'
-import mongodb from '../assets/mongodb.svg'
-import expressjs from '../assets/expressjs.svg'
-import nodejs from '../assets/nodejs.svg'
-import python from '../assets/python.svg'
-import git from '../assets/git.svg'
+import javascript from '../assets/javascript.png'
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import react from '../assets/reactjs.png'
+import clang from '../assets/c-lang.png'
+import mongodb from '../assets/mongodb.png'
+import expressjs from '../assets/express.png'
+import nodejs from '../assets/nodejs.png'
+import python from '../assets/python.png'
+import git from '../assets/git.png'
 import reactState from '../assets/project/reactState.png'
 import blogging from '../assets/project/blogging.png'
 import portfolio from '../assets/project/portfolio.png'
+
 
 
 
@@ -59,6 +60,7 @@ const technologies = [
     icon: git
 
   },
+
 ];
 
 const projects = [
@@ -72,7 +74,7 @@ const projects = [
   {
     name: "Blogging page",
     description:
-      "a blogging web application in which user can login and authenticate using jwt and bycrypt.",
+      "a blogging web application for users to upload daily blogs with image and comments section for feedback.",
     image: blogging,
     source_code_link: "https://github.com/imdeen/blog-application",
   },
