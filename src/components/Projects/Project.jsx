@@ -31,7 +31,7 @@ const ProjectCard = ({ name, description, image, source_code_link,link }) => {
           </div>
 
           <div
-            onClick={() => window.open(source_code_link, "_black")}
+            onClick={() => window.open(source_code_link,  '_blank')}
             className='github'
           >
             <img src={github} alt="github" />

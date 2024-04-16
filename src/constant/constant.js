@@ -12,6 +12,7 @@ import reactState from "../assets/project/reactState.png";
 import blogging from "../assets/project/blogging.png";
 import portfolio from "../assets/project/portfolio.png";
 import movieApp from "../assets/project/movieApp.png";
+import ticktaktoe from "../assets/project/tick-tack-toe.png";
 
 const technologies = [
   {
@@ -66,7 +67,7 @@ const projects = [
     link: "https://willowy-donut-169448.netlify.app",
   },
   {
-    name: "imdb-clone-app",
+    name: "Imdb-clone-app",
     description:
       "an imdb copy in which user can browse upcoming movies and see the movie detail.",
     image: movieApp,
@@ -74,12 +75,20 @@ const projects = [
     link: "https://loquacious-strudel-cdf7e0.netlify.app",
   },
   {
-    name: "personal-portfolio-website",
+    name: "Personal-portfolio-website",
     description:
       "a portfolio website with added 3d model showcasing projects with smooth transition and great experience",
     image: portfolio,
     source_code_link: "https://github.com/imdeen/personal-portfolio-website",
     link: "https://deenmohd.netlify.app/",
+  },
+  {
+    name: "Tic-tac-toe",
+    description:
+      "it is a two-player game in which the objective is to take turns and mark the correct spaces in a 3x3 (or larger) grid",
+    image: ticktaktoe,
+    source_code_link: "https://github.com/imdeen/tic-tac-toe",
+    link: "https://cute-zabaione-463535.netlify.app/",
   },
   {
     name: "Blogging page",
