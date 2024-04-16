@@ -6,7 +6,7 @@ import { projects } from '../../constant/constant'
 import github from '../../assets/github.svg'
 import { motion } from 'framer-motion'
 
-const ProjectCard = ({ name, description, image, source_code_link }) => {
+const ProjectCard = ({ name, description, image, source_code_link,link }) => {
   return (
     <div>
       <Tilt
@@ -24,7 +24,9 @@ const ProjectCard = ({ name, description, image, source_code_link }) => {
             type: "ease-in",
           }}
           className='projectCard'>
-          <div className='card'>
+          <div onClick={() => window.open(link)}
+          className='card'>
+          
             <img src={image} alt={name} />
           </div>
 
@@ -56,13 +58,14 @@ const Project = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
-            duration: 7,
+            duration: 4,
             type: "spring",
           }}
 
           className='aquaText t-center'>Projects</motion.h1>
 
-        <div className='paddings project'>
+        <div
+        className='paddings project'>
           {projects.map((project, index) => (
             <ProjectCard
               key={`project-${index}`}
@@ -77,7 +80,7 @@ const Project = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{
-            duration: 7,
+            duration: 4,
             type: "spring"
           }}
           className='aquaText t-center top-paddings'>tech stack</motion.h1>
@@ -85,7 +88,7 @@ const Project = () => {
           initial={{ y: "4rem", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
-            duration: 4,
+            duration: 2,
             type: "ease-in",
           }}
           className='tech-balls'>

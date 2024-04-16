@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
-import MacBook from './mac-draco'
+import MacBook from './Mac-draco.jsx'
 import './Macbook.css'
 import CanvasLoader from '../Loader/Loader'
 

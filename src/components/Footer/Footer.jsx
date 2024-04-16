@@ -1,4 +1,4 @@
-import './footer.css'
+import './Footer.css'
 import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const Footer = () => {
@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className='icons'>
 
-        <a className='icon' href="https://github.com/ilikemintyicecream">< AiOutlineGithub /></a>
+        <a className='icon' href="https://github.com/imdeen">< AiOutlineGithub /></a>
         <a className='icon' href="https://www.linkedin.com/in/deen-mohammad-9b0b8a192/">< AiFillLinkedin /></a>
       </div>
 
@@ -32,15 +32,15 @@ const Footer = () => {
         </li>
 
         <li className='menu__item'>
-          <a className='menu__link' href="#About"><div>About</div></a>
+          <a className='menu__link' href="/About"><div>About</div></a>
         </li>
 
         <li className='menu__item'>
-          <a className='menu__link' href="#Hobbies"><div>Hobbies</div></a>
+          <a className='menu__link' href="/Project"><div>Project</div></a>
         </li>
 
         <li className='menu__item'>
-          <a className='menu__link' href="#Contact"><div>Contact</div></a>
+          <a className='menu__link' href="/Contact"><div>Contact</div></a>
         </li>
 
       </ul>

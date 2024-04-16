@@ -17,7 +17,8 @@ const Nav = () => {
             <section className='test'>
                 <div className='nav-container'>
                     {/* logo */}
-                    <a href="/"><img src="./logo.gif" width={50} alt="logo" /></a>
+
+                    <a href="/"><img src="./icon-software.png" width={50} color='white' alt="logo" /></a>
 
 
                     {/* menu */}
@@ -26,7 +27,7 @@ const Nav = () => {
                         <a className='Nav-link' href="/Project"><FaLaptopCode />Project</a>
                         <a className='Nav-link' href="/About"> <AiOutlineUser />About</a>
                         <a className='Nav-link' href="/Contact"> <AiOutlinePhone />Contact</a>
-                        <a href="./Deen-Mohammad.pdf" class="button">Resume</a>
+                        <a href="./deen-resume.pdf" class="button">Resume</a>
                     </div>
 
                     {/* toggle-bar */}
